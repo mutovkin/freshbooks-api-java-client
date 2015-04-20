@@ -9,7 +9,7 @@
     <groupId>com.freshbooks</groupId>
     <artifactId>freshbooksApiClient</artifactId>
     <packaging>jar</packaging>
-    <version>0.5</version>
+    <version>0.5.1</version>
     <name>freshbooksApiClient</name>
     <description>Client library to access the freshbooks API from java programs</description>
 

@@ -1,9 +1,9 @@
 package com.freshbooks.model;
 
-import java.util.Date;
-
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import com.thoughtworks.xstream.annotations.XStreamAsAttribute;
+
+import java.util.Date;
 
 @XStreamAlias("request")
 public class Request extends Message {
@@ -42,6 +42,8 @@ public class Request extends Message {
             break;
         case INVOICE_DELETE:
         case INVOICE_GET:
+        case INVOICE_SEND_BY_EMAIL:
+        case INVOICE_SEND_BY_SNAIL_MAIL:
             this.invoiceId = id;
             break;
         case PAYMENT_DELETE:
